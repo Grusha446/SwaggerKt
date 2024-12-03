@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.ithub.spring.kt1java.OrderMainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-12T11:30:11" hostname="LAPTOP-OLNAO0FS" time="0.399">
+  <properties/>
+  <testcase name="getAllOrders_ShouldReturnOrderList()" classname="ru.ithub.spring.kt1java.OrderMainTest" time="0.238"/>
+  <testcase name="updateOrder_ValidOrder_ShouldReturnUpdatedOrder()" classname="ru.ithub.spring.kt1java.OrderMainTest" time="0.115"/>
+  <testcase name="getOrderById_NonExistingOrder_ShouldReturnNotFound()" classname="ru.ithub.spring.kt1java.OrderMainTest" time="0.011"/>
+  <testcase name="getOrderById_ExistingOrder_ShouldReturnOrder()" classname="ru.ithub.spring.kt1java.OrderMainTest" time="0.01"/>
+  <testcase name="deleteOrder_ShouldReturnNoContent()" classname="ru.ithub.spring.kt1java.OrderMainTest" time="0.008"/>
+  <testcase name="createOrder_ValidOrder_ShouldReturnCreatedOrder()" classname="ru.ithub.spring.kt1java.OrderMainTest" time="0.008"/>
+  <system-out><![CDATA[2024-11-12T14:30:10.559+03:00  INFO 2432 --- [kt1Java] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [ru.ithub.spring.kt1java.OrderMainTest]: OrderMainTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-12T14:30:10.576+03:00  INFO 2432 --- [kt1Java] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration ru.ithub.spring.kt1java.Main for test class ru.ithub.spring.kt1java.OrderMainTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-11-12T14:30:10.601+03:00  INFO 2432 --- [kt1Java] [    Test worker] ru.ithub.spring.kt1java.OrderMainTest    : Starting OrderMainTest using Java 21.0.1 with PID 2432 (started by 89648 in C:\Users\89648\IdeaProjects\kt1Java)
+2024-11-12T14:30:10.601+03:00  INFO 2432 --- [kt1Java] [    Test worker] ru.ithub.spring.kt1java.OrderMainTest    : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T14:30:11.037+03:00  INFO 2432 --- [kt1Java] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-12T14:30:11.038+03:00  INFO 2432 --- [kt1Java] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-12T14:30:11.041+03:00  INFO 2432 --- [kt1Java] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-11-12T14:30:11.057+03:00  INFO 2432 --- [kt1Java] [    Test worker] ru.ithub.spring.kt1java.OrderMainTest    : Started OrderMainTest in 0.478 seconds (process running for 5.237)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.ithub.spring.kt1java.OrderServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-11-12T11:30:11" hostname="LAPTOP-OLNAO0FS" time="0.16">
+  <properties/>
+  <testcase name="getAllOrders_ShouldReturnOrderList()" classname="ru.ithub.spring.kt1java.OrderServiceTest" time="0.148"/>
+  <testcase name="getOrderById_ExistingOrder_ShouldReturnOrder()" classname="ru.ithub.spring.kt1java.OrderServiceTest" time="0.006"/>
+  <testcase name="createOrder_ShouldSaveOrder()" classname="ru.ithub.spring.kt1java.OrderServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
